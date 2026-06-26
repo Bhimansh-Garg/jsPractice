@@ -37,4 +37,12 @@ function handleObject(anyObject){
 }
 handleObject({name: "John", age: 30}) // John is 30 years old // prints the name and age of the object
 
+const addTwoNumbers = function(a, b){
+    return a + b
+}// expression function
+
+const addTwoNumbers2 = (a, b) => a + b // arrow function
+
+
+
 
