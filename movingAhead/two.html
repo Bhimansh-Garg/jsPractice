@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>DOM Learnings</title>
+    <style>.bg-black{
+        background-color: #212121;
+        color: white;
+    }
+        </style>
+</head>
+<body class="bg-black">
+
+    
+</body>
+<script> 
+    const div = document.createElement('div')
+    div.className = "main"
+    div.id = "myId"
+    div.setAttribute("title","generated title")
+    div.style.backgroundColor = 'green'
+    div.style.padding = "12px"
+    div.innerText = "First Element"
+    // const addText = document.createTextNode("First Element")
+    // div.appendChild(addText)
+    document.body.appendChild(div)
+</Script>
+</html>

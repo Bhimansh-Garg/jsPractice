@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>DOM Learnings</title>
+    <style>.bg-black{
+        background-color: #212121;
+        color: white;
+    }
+        </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id = "tit1e" class="headings">DOM learning self </h1>
+        <p> Lorem ipsum dolor sit amet</p>
+    </div>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thrusday</div>
+    </div>
+    
+</body>
+<script> 
+const parent  = document.querySelector('.parent')
+console.log(parent)
+console.log(parent.children)
+console.log(parent.children[1])
+parent.children[1].style.color="orange"
+
+console.log(parent.firstElementChild)
+const dayOne = document.querySelector('.day')
+
+
+
+
+</Script>
+</html>
